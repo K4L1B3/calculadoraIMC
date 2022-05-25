@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calcStyle.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    
+    <main class="backgorundContainer">
+        <section class="container">
+            <section class="containerCalc">
+                <div class="elementsContainer">
+                    <h1>Tabela IMC</h1>
+    
+                    <div class="infoContainer">
+    
+                        <div>
+                            <h3>IMC</h3>
+                            <p>Menos que 18,5</p>
+                            <p>Entre 18,5 a 24,9</p>
+                            <p>Entre 25 a 29,9</p>
+                            <p>Entre 30 a 34,9</p>
+                            <p>Entre 35 a 39,9</p>
+                            <p>Mais que 40</p>
+                        </div>
+                        <div>
+                            <h3>Resultado</h3>
+                            <p>Abaixo do peso</p>
+                            <p>Peso normal</p>
+                            <p>Sobrepeso</p>
+                            <p>Obesidade grau 1</p>
+                            <p>Obesidade grau 2</p>
+                            <p>Obesidade grau 3</p>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="calcIMC">
+                        <form class="formCalc" action="" method="post">
+                            <h1>Calcule o seu IMC</h1>
+                            <div class="receiveInputs">
+                                <div class="inputsAndLabes">
+                                    <div class="input">
+                                      <label>Peso:</label>
+                                      <input type="text" placeholder="em kg ex: 80" class="peso"/>  
+                                    </div>
+                                    
+                                    <div class="input">
+                                        <label>Altura:</label>
+                                        <input type="text" placeholder="em m ex: 1.70" class="altura"/>
+                                    </div>
+                                </div>
+                                
+                                <div class="buttonContainer">
+                                    <button type="number" data-modal-target="#modal">Enviar</button>
+                                </div>
+                            </div>
+
+                            <div class="popUpBox" id="modal">
+                                <div class="modal-header">
+                                    <button data-close-button class="close-button">&times;</button>
+                                </div>
+                                <div class="answerBox">
+                                    <div class="title">
+                                        De acordo com o seus dados o seu IMC é:
+                                    </div>
+                                    <div class="htmlAnswer">Lorem ipsum dolor sit, amet consectetur 
+                                        adipisicing elit. 
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="overlay" id="overlay"></div>
+
+            </section>
+        </section>
+    </main>
+
+
+   <script src="./calcScript.js"></script> 
+</body>
+</html>
