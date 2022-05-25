@@ -5,7 +5,7 @@
 <div display="inline" align="center">
 <img src="https://img.shields.io/static/v1?label=Version&message=1.0&color=7159c1&style=for-the-badge&logo=ghost"/>
 <img src="https://img.shields.io/static/v1?label=Progress&message=100%&color=7159c1&style=for-the-badge&logo=ghost"/>
-<img src="https://img.shields.io/static/v1?label=Contribution&message=Open&color=7159c1&style=for-the-badge&logo=ghost"/>
+<img src="https://img.shields.io/static/v1?label=Contribution&message=Closen&color=7159c1&style=for-the-badge&logo=ghost"/>
 <img src="https://img.shields.io/static/v1?label= Project Stats &message=All right&color=00FF55&style=for-the-badge&logo=ghost"/>
 </div>
 
