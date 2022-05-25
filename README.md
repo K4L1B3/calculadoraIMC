@@ -15,6 +15,7 @@
 
 # About
 
+
 **In short: Just an IMC calculator made in java,script, HTML and CSS**
 
 <br/>
@@ -35,7 +36,7 @@ The following tools will be used in building the project:
 
 # Demonstration
 
-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/45051690/170385588-94d36594-6ae6-4b0d-b168-f507bca3fb21.gif)
 
  <br/>
  <br/>
